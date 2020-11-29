@@ -54,7 +54,6 @@ public class EventController {
 
     /**
      * Method use for get event between two dates from database
-     *
      * @return
      */
     @RequestMapping(method = RequestMethod.GET, value = "/fetch", produces = MediaType.APPLICATION_JSON_VALUE)
